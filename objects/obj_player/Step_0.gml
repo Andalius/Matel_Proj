@@ -1,21 +1,32 @@
-direita = keyboard_check(ord("D"));
-esquerda = keyboard_check(ord("A"));
-var _colisao = layer_tilemap_get_id("Tiles_1");
+//Collision with tileset
+var _collision = layer_tilemap_get_id("tl_level");
 
-hspd = (direita-esquerda) * spd
-vspd += grav;
+//Verify Pressed
+var _left, _right, _jump, _floor; 
+_left = keyboard_check(inputs.left);
+_right = keyboard_check(inputs.right);
+_jump = keyboard_check(inputs.jump);
 
-if (place_meeting(x, y + vspd, _colisao)){
-	vspd = 0;
-	can_jump = true;
-}
+//checking Floor
+_floor = place_meeting(x,y + 1, _collision)
 
-if (can_jump){
-	if (keyboard_check_pressed(ord("W"))){
-		can_jump = false;
-		vspd = -pulo;
+//horizontal move
+velh = (_right - _left) * max_velh;
+
+//Gravity if it is Touching the Floor
+if (!_floor){
+	velv += grav;
+	
+} else {
+	velv = 0
+	
+	//jump
+	if (_jump){
+		velv = -max_velv;	
 	}
 }
 
-y += vspd;
-move_and_collide(hspd,vspd,_colisao);
+//Movement and Collide
+move_and_collide(velh, velv, _collision,12);
+
+

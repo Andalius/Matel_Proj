@@ -1,11 +1,13 @@
-grav = 0.3;
+velh = 0;
+velv = 0;
+max_velh = 4;
+max_velv = 6;
 
-hspd = 0;
-vspd = 0;
+grav = .3;
 
-spd = 4
-
-direita = 0;
-esquerda = 0;
-pulo = 4;
-can_jump = 0;
+//inputs movement
+inputs = {
+	left : ord("A"),
+	jump : ord("W"), 
+	right : ord("D")
+}
