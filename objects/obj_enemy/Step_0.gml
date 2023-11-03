@@ -1,4 +1,3 @@
 if (obj_player.x >= x -200){
-	obj_game_control.combate = true;
+	obj_state_machine.combate = true;
 }
-
