@@ -20,6 +20,7 @@ if (!_floor){
 } else {
 	velv = 0
 	
+	
 	//jump
 	if (_jump){
 		velv = -max_velv;	
@@ -28,5 +29,3 @@ if (!_floor){
 
 //Movement and Collide
 move_and_collide(velh, velv, _collision,12);
-
-

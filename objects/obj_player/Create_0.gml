@@ -5,6 +5,7 @@ max_velv = 6;
 
 grav = .3;
 
+vezesmegamente = 0;
 //inputs movement
 inputs = {
 	left : ord("A"),
