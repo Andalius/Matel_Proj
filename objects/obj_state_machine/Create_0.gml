@@ -1,1 +1,1 @@
-global.combate = false;
+combate = false;

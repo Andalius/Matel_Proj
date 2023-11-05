@@ -1,1 +1,0 @@
-destino = Room1_combat;

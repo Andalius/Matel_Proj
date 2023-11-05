@@ -11,4 +11,3 @@ inputs = {
 	jump : ord("W"), 
 	right : ord("D")
 }
-

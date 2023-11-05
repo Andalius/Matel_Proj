@@ -1,1 +1,0 @@
-escurecer = false;
