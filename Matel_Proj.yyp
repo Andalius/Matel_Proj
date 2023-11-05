@@ -34,6 +34,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"obj_playerComb","path":"objects/obj_playerComb/obj_playerComb.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_combat","path":"rooms/rm_combat/rm_combat.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
@@ -49,6 +50,8 @@
     {"id":{"name":"obj_state_machine","path":"objects/obj_state_machine/obj_state_machine.yy",},},
     {"id":{"name":"spr_enemy_megamente","path":"sprites/spr_enemy_megamente/spr_enemy_megamente.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
+    {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},
+    {"id":{"name":"obj_enemyComb1","path":"objects/obj_enemyComb1/obj_enemyComb1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
