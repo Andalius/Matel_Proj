@@ -22,9 +22,9 @@ draw_text(500, 580, "Pergunta:  " + _question);
 
 // Desenhe as alternativas na tela
 
-draw_text_ext(200, 650, string(final[0]), 50, 40);
-draw_text_ext(500, 650, string(final[1]), 50, 40);
-draw_text_ext(800, 650, string(final[2]), 50, 40);
+draw_text_ext(200, 650, string(final[0]), 100, 400);
+draw_text_ext(500, 650, string(final[1]), 100, 400);
+draw_text_ext(800, 650, string(final[2]), 100, 400);
 
 
 if (keyboard_check_pressed(vk_left)) posicao--;

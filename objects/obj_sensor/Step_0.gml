@@ -4,4 +4,3 @@ if (place_meeting(x, y, obj_player) && ative){
 	ative = false;
 	
 }
-instance_destroy()
