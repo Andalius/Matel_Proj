@@ -14,7 +14,7 @@ draw_set_halign(fa_center);
 //draw_text_ext_transformed_color(450, room_height - 240, obj_response.answer_easy[num_true], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);
 
 //quests
-var _question = global.perguntas[current_question];
+var _question = perguntas_easy[current_question];
 draw_text(500, 580, "Pergunta:  " + _question);
 
 // Embaralhe as alternativas
@@ -22,9 +22,9 @@ draw_text(500, 580, "Pergunta:  " + _question);
 
 // Desenhe as alternativas na tela
 
-draw_text_ext(200, 650, string(final[0]), 50, 40);
-draw_text_ext(500, 650, string(final[1]), 50, 40);
-draw_text_ext(800, 650, string(final[2]), 50, 40);
+draw_text_ext(200, 650, string(final[0]), 100, 400);
+draw_text_ext(500, 650, string(final[1]), 100, 400);
+draw_text_ext(800, 650, string(final[2]), 100, 400);
 
 
 if (keyboard_check_pressed(vk_left)) posicao--;
