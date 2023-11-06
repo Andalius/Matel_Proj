@@ -1,3 +1,3 @@
 enemy = enemy;
-life = 1;
+life = life;
 

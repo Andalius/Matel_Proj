@@ -38,7 +38,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_combat","path":"rooms/rm_combat/rm_combat.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
-    {"id":{"name":"obj_sensor_megamente","path":"objects/obj_sensor_megamente/obj_sensor_megamente.yy",},},
+    {"id":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"obj_game_control","path":"objects/obj_game_control/obj_game_control.yy",},},
     {"id":{"name":"spr_sensor","path":"sprites/spr_sensor/spr_sensor.yy",},},

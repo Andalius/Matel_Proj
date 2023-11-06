@@ -11,33 +11,28 @@ draw_set_halign(fa_center);
 
 
 //answer
-draw_text_ext_transformed_color(450, room_height - 240, obj_response.answer_easy[num_true], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);
+//draw_text_ext_transformed_color(450, room_height - 240, obj_response.answer_easy[num_true], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);
 
-//wrong
-if (num_true % 2 !=0){
-	//response left false
-	draw_text_ext_transformed_color(250, room_height - 165, obj_response.random_answers[num_false], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);	
+//quests
+var _question = global.perguntas[current_question];
+draw_text(500, 580, "Pergunta:  " + _question);
 
-	//response right true
-	draw_text_ext_transformed_color(650, room_height - 165, obj_response.response_easy[num_true], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);
-} else {
-	//response left true
-	draw_text_ext_transformed_color(250, room_height - 165, obj_response.response_easy[num_true], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);	
+// Embaralhe as alternativas
 
-	//response right false
-	draw_text_ext_transformed_color(650, room_height - 165, obj_response.random_answers[num_false], 10, 900, 3, 3, 0,c_black, c_black, c_black, c_black, 3);
-	
-}
+
+// Desenhe as alternativas na tela
+
+draw_text_ext(200, 650, string(final[0]), 50, 40);
+draw_text_ext(500, 650, string(final[1]), 50, 40);
+draw_text_ext(800, 650, string(final[2]), 50, 40);
 
 
 if (keyboard_check_pressed(vk_left)) posicao--;
 if (keyboard_check_pressed(vk_right)) posicao++;
 
-if (posicao < 0) posicao = 1;
-if (posicao > 1) posicao = 0;
+if (posicao < 0) posicao = 2;
+if (posicao > 2) posicao = 0;
 
 
-
-//draw choice
-//draw_line_color(150 + (posicao *400), room_height-100, 350 + (posicao * 400), room_height-100, c_black, c_black);
-draw_rectangle_color(150 + (posicao *400), room_height-100, 350 + (posicao * 400), room_height-160, c_black, c_black, c_black, c_black, true);
+//draw choice marker
+draw_rectangle_color(100 + (posicao *300), room_height-80, 300 + (posicao * 300), room_height-130, c_black, c_black, c_black, c_black, true);
