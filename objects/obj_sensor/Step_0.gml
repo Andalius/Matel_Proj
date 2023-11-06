@@ -3,4 +3,6 @@ if (place_meeting(x, y, obj_player) && ative){
 	t.destino = destino;
 	ative = false;
 	
+	instance_destroy();
 }
+;

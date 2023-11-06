@@ -7,7 +7,7 @@ var _perguntas = [
     "56+10"
 ];
 
-var _respostas_corretas = [100, 19, 66];
+ _respostas_corretas = [100, 19, 66];
 
 var _respostas_aleatorias = [
     "Paris",
@@ -19,4 +19,5 @@ var _respostas_aleatorias = [
 ];
 
 global.perguntas = _perguntas;
+
 global.respostas_aleatorias = _respostas_aleatorias;
