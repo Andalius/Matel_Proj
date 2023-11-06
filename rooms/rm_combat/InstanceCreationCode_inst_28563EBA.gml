@@ -1,3 +1,4 @@
 enemy = spr_enemy_megamente;
-hp = 10;
+life = 2;
 atk = 2;
+destino = Room1;

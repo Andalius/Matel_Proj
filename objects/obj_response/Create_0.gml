@@ -1,4 +1,22 @@
-answer_easy = ["teste1","teste2","teste3","teste4","teste5","teste6"]
-response_easy = [1,2,3,4,5,6];
+// Evento Create
+// Crie as listas de perguntas, respostas corretas e respostas aleatórias
 
-random_answers = [58, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57];
+var _perguntas = [
+    "50+50",
+    "38/2",
+    "56+10"
+];
+
+var _respostas_corretas = [100, 19, 66];
+
+var _respostas_aleatorias = [
+    "Paris",
+    "Marte",
+    "Shakespeare",
+    "Rio de Janeiro",
+    "Venus",
+    "Tolstói"
+];
+
+global.perguntas = _perguntas;
+global.respostas_aleatorias = _respostas_aleatorias;

@@ -1,4 +1,5 @@
-if (life == 0){
-	show_message("inimigo morto");
-	room_goto_previous();
+if (life <= 0){
+	var t = instance_create_layer(x, y, "Instances_1", obj_transition);
+	t.destino = destino;
 }
+
