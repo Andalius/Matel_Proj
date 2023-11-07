@@ -18,9 +18,9 @@ perguntas_easy = [
 ]
 
 respostas_corretas_easy =[
-	"x1 = -3/2 e x2 = 1",
-	"x1 = 1 e x2 = 5",
-	"x1 = 0 e x2 = 3/2",	
+	"x111 = -3/2 e x2 = 1",
+	"x111 = 1 e x2 = 5",
+	"x111 = 0 e x2 = 3/2",	
 ];
 
 respostas_aleatorias_easy = [
@@ -62,6 +62,7 @@ if(obj_game_control.difficulty == 1){
 	}
 
 }else if(obj_game_control.difficulty == 2){
+	
 		_choices[irandom_range(0, 3)] = respostas_corretas_medium[current_question];
 		for(var _i = 0; _i <= 2; _i++){
 			if (_choices[_i] == ""){
