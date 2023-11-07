@@ -10,6 +10,7 @@
     {"name":"Linhas do tempo","order":9,"path":"folders/Linhas do tempo.yy",},
     {"name":"Enemy","order":2,"path":"folders/Objets/Enemy.yy",},
     {"name":"Game","order":3,"path":"folders/Objets/Game.yy",},
+    {"name":"HUDS","order":3,"path":"folders/Objets/Game/HUDS.yy",},
     {"name":"Player","order":1,"path":"folders/Objets/Player.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
@@ -20,7 +21,6 @@
     {"name":"Enemy","order":8,"path":"folders/Sprites/Enemy.yy",},
     {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
     {"name":"World","order":9,"path":"folders/Sprites/World.yy",},
-    {"name":"HUDS","order":3,"path":"folders/Objets/Game/HUDS.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_combat_Child_3","order":6,"path":"rooms/rm_combat_Child_3/rm_combat_Child_3.yy",},
