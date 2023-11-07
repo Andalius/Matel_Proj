@@ -38,3 +38,10 @@ if (obj_game_control.fase == 2 && f1){
 	y = 600;
 	f1 = false;
 }
+
+//sprite move
+if(_left){
+	image_xscale = -2;	
+}else if(_right){
+	image_xscale = 2;
+}
