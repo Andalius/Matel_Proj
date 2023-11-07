@@ -21,11 +21,17 @@ if (!_floor){
 	velv = 0
 	
 	
-	//jump
-	if (_jump){
+//jump
+if (_jump){
 		velv = -max_velv;	
 	}
 }
 
 //Movement and Collide
 move_and_collide(velh, velv, _collision,12);
+
+if (obj_game_control.fase == 2 && f1){
+	x = 600;
+	y = 600;
+	f1 = false;
+}

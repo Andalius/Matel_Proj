@@ -2,6 +2,7 @@
 var _actual_life = obj_playerComb.hp/obj_playerComb.max_hp*100;
 draw_healthbar(20, 20, 250, 70, _actual_life, c_grey, c_red, c_red, 0, true, true);
 
+
 //draw buttons background
 draw_rectangle_color(0, room_height, room_width, room_height-230, c_grey, c_grey, c_grey, c_grey, false);
 draw_rectangle_color(0, room_height, room_width, room_height-230, c_black, c_black, c_black, c_black, true);
@@ -15,16 +16,16 @@ draw_set_halign(fa_center);
 
 //quests
 var _question = perguntas_easy[current_question];
-draw_text(500, 580, "Pergunta:  " + _question);
+draw_text_ext_color(500, 580, "Pergunta:  " + _question,  100, 400, c_black, c_black, c_black, c_black, 1);
 
 // Embaralhe as alternativas
 
 
 // Desenhe as alternativas na tela
 
-draw_text_ext(200, 650, string(final[0]), 100, 400);
-draw_text_ext(500, 650, string(final[1]), 100, 400);
-draw_text_ext(800, 650, string(final[2]), 100, 400);
+draw_text_ext_color(200, 650, string(final[0]), 100, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(500, 650, string(final[1]), 100, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(800, 650, string(final[2]), 100, 400, c_black, c_black, c_black, c_black, 1);
 
 
 if (keyboard_check_pressed(vk_left)) posicao--;

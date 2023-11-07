@@ -10,7 +10,6 @@ if (alpha >= 1){
 
 if (light == false){
 	alpha -= 0.025	
-
 }
 
 if (alpha <= 0 && light == false){

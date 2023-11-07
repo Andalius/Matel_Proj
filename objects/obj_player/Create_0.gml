@@ -12,3 +12,9 @@ inputs = {
 	jump : ord("W"), 
 	right : ord("D")
 }
+
+f1 = true;
+f2 = true;
+f3 = true;
+f4 = true;
+f5 = true;

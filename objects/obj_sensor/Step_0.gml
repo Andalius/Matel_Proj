@@ -5,6 +5,3 @@ if (place_meeting(x, y, obj_player) && ative){
 	
 	instance_destroy();
 }
-if (obj_game_control.fase > mfase){
-	instance_destroy();	
-}
