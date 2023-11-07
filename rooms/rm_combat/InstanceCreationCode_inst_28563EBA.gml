@@ -5,3 +5,4 @@ atk = 2;
 destino = Room1;
 xx = 600;
 yy = 600;
+sprite_index = spr_enemy_megamente;

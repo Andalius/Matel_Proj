@@ -54,17 +54,15 @@ respostas_aleatorias_medium = [
 	"x1 = 3 e x2 = 1"
 ]
 gabarito = "";
-//respostas_aleatorias_easy[irandom(array_length(respostas_aleatorias_easy)-1)];
 
-	question = perguntas_easy[current_question];
-	_choices[irandom_range(0, 3)] = respostas_corretas_easy[current_question];
-	gabarito = respostas_corretas_easy[current_question];
-	for(var _i = 0; _i <= 2; _i++){
-		if (_choices[_i] == ""){
-			_choices[_i] = respostas_aleatorias_easy[irandom(array_length(respostas_aleatorias_easy)-1)];
+		question = perguntas_medium[current_question];
+		_choices[irandom_range(0, 3)] = respostas_corretas_medium[current_question];
+		gabarito = respostas_corretas_medium[current_question];
+		for(var _i = 0; _i <= 2; _i++){
+			if (_choices[_i] == ""){
+				_choices[_i] = respostas_aleatorias_medium[irandom(array_length(respostas_aleatorias_medium)-1)];
+			}
 		}
-	}
-
 
 final = array_shuffle(_choices);
 	

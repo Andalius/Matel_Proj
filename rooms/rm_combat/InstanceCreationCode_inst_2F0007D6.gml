@@ -1,0 +1,1 @@
+hud = obj_HUD;

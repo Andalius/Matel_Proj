@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Game",
-    "path": "folders/Objets/Game.yy",
+    "name": "HUDS",
+    "path": "folders/Objets/Game/HUDS.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -5,13 +5,12 @@ if (hp <=0){
 }
 
 
-//left true
 if ( keyboard_check_pressed(vk_enter)){
-	if(obj_HUD.final[obj_HUD.posicao]==obj_HUD.respostas_corretas_easy[obj_HUD.current_question]){
-		obj_enemyComb1.life -= 2;	
+	if(hud.final[hud.posicao]==hud.gabarito){
+		obj_enemyComb1.life -= 2;
 		instance_destroy(obj_HUD);
 		if(obj_enemyComb1.life > 0){
-			instance_create_layer(x, y, "Instances_1", obj_HUD);
+			var _t = instance_create_layer(x, y, "Instances_1", hud);
 		}
 	}
 	else{
