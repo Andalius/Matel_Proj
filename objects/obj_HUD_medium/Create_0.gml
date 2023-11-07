@@ -3,7 +3,7 @@ posicao = 0;
 
 // Evento Create do objPerguntasRespostas
 
-current_question = irandom(2);
+
 
 correct_answer = "";
 alternativas_leatorias = ds_list_create();
@@ -54,15 +54,15 @@ respostas_aleatorias_medium = [
 	"x1 = 3 e x2 = 1"
 ]
 gabarito = "";
-
-		question = perguntas_medium[current_question];
-		_choices[irandom_range(0, 3)] = respostas_corretas_medium[current_question];
-		gabarito = respostas_corretas_medium[current_question];
-		for(var _i = 0; _i <= 2; _i++){
-			if (_choices[_i] == ""){
-				_choices[_i] = respostas_aleatorias_medium[irandom(array_length(respostas_aleatorias_medium)-1)];
-			}
+	current_question = random(3);
+	question = perguntas_medium[current_question];
+	_choices[random_range(-1, 3)] = respostas_corretas_medium[current_question];
+	gabarito = respostas_corretas_medium[current_question];
+	for(var _i = 0; _i <= 2; _i++){
+		if (_choices[_i] == ""){
+			_choices[_i] = respostas_aleatorias_medium[irandom(array_length(respostas_aleatorias_medium)-1)];
 		}
+	}
 
 final = array_shuffle(_choices);
 	
