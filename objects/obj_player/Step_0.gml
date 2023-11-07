@@ -19,7 +19,10 @@ if (!_floor){
 	
 } else {
 	velv = 0
-	
+	if velh != 0
+		sprite_index = spr_player_run
+	else
+		sprite_index = spr_player_idle
 	
 //jump
 if (_jump){

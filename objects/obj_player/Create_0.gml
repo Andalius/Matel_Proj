@@ -2,6 +2,8 @@ velh = 0;
 velv = 0;
 max_velh = 4;
 max_velv = 6;
+image_xscale = 2; // Aumenta a escala horizontal para 2 vezes o tamanho original
+image_yscale = 2; // Aumenta a escala vertical para 2 vezes o tamanho original
 
 grav = .3;
 

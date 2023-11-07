@@ -1,6 +1,7 @@
 
 var _actual_life = obj_playerComb.hp/obj_playerComb.max_hp*100;
-draw_healthbar(20, 20, 250, 70, _actual_life, c_grey, c_red, c_red, 0, true, true);
+draw_healthbar(180, 220, 350, 270, _actual_life, c_grey, c_red, c_red, 0, true, true);
+
 
 
 //draw buttons background

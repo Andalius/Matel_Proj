@@ -6,8 +6,9 @@ if (life <= 0){
 	obj_game_control.difficulty += 1;
 }
 
-if (obj_game_control.fase == 1){
+
+if (obj_game_control.fase ==1){
 	sprite_index=spr_enemy_megamente;
-}else if (obj_game_control == 2){
+}else if (obj_game_control.fase == 2){
 	sprite_index=spr_zoidin;
 }
