@@ -28,6 +28,7 @@
     {"name":"spr_enemy_girlb","order":7,"path":"sprites/spr_enemy_girlb/spr_enemy_girlb.yy",},
     {"name":"obj_controll","order":3,"path":"objects/obj_controll/obj_controll.yy",},
     {"name":"rm_combat","order":2,"path":"rooms/rm_combat/rm_combat.yy",},
+    {"name":"spr_explosion","order":8,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"obj_zoiudin","order":2,"path":"objects/obj_zoiudin/obj_zoiudin.yy",},
     {"name":"Sprite11","order":4,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Sprite13","order":5,"path":"sprites/Sprite13/Sprite13.yy",},

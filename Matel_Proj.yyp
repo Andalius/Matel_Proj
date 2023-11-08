@@ -47,6 +47,7 @@
     {"id":{"name":"obj_controll","path":"objects/obj_controll/obj_controll.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_combat","path":"rooms/rm_combat/rm_combat.yy",},},
+    {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},},
     {"id":{"name":"obj_zoiudin","path":"objects/obj_zoiudin/obj_zoiudin.yy",},},

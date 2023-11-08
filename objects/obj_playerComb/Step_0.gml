@@ -32,7 +32,8 @@ if(x>=576){
 }
 if(x>=546){
 	obj_enemyComb1.sprite_index=obj_enemyComb1.b_sprite;
-}else if(x <= 541){
+}
+else if(x <= 541 && obj_enemyComb1.life > 0){
 	obj_enemyComb1.sprite_index=obj_enemyComb1.sprite;
 }
 if(x <= 224){

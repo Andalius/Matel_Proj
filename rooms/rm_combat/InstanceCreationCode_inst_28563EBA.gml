@@ -9,3 +9,4 @@ sprite = spr_enemy_megamente;
 b_sprite = spr_enemy_megamente_b;
 sprite_index = sprite;
 nome = "MegaMente";
+hud = obj_HUD;
