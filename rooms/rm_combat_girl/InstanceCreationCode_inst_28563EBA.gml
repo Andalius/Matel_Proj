@@ -1,0 +1,11 @@
+life = 6;
+max_life = life;
+atk = 2;
+destino = Room1;
+xx = 600;
+yy = 600;
+sprite =  spr_enemy_girl;
+sprite_index = sprite;
+hud = obj_HUD_hard;
+b_sprite = spr_enemy_girlb;
+nome = "Patricia";
