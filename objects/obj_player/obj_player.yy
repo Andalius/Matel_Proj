@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_new",
+    "path": "sprites/spr_new/spr_new.yy",
   },
   "spriteMaskId": null,
   "visible": true,

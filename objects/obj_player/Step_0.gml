@@ -20,14 +20,14 @@ if (!_floor){
 } else {
 	velv = 0
 	if velh != 0
-		sprite_index = spr_player_run
-	else
-		sprite_index = spr_player_idle
-	
+		sprite_index = spr_new;
+
+
 //jump
-if (_jump){
-		velv = -max_velv;	
-	}
+	if (_jump){
+			audio_play_sound(snd_jump, 1, false);
+			velv = -max_velv;	
+		}
 }
 
 //Movement and Collide
@@ -45,3 +45,14 @@ if(_left){
 }else if(_right){
 	image_xscale = 2;
 }
+
+if(mouse_check_button_pressed(mb_left)){
+	sprite_index = spr_new2;
+	atk = 8;
+}
+	if(atk<=0){
+	sprite_index = spr_new;
+	
+}
+
+atk --;

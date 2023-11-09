@@ -12,3 +12,5 @@ nome = 0;
 ex = false;
 ex_alarm = 14;
 dmg_cool = 50;
+xx = x;
+yy = y;

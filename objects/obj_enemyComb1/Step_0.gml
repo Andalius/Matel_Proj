@@ -1,16 +1,18 @@
-if(place_meeting(x, y, obj_playerComb)&&dmg_cool <= 0){
-	obj_playerComb.tempo = 99890;
-	life -= 2;
-
-	dmg_cool = 50;
-
+if(instance_exists(obj_dmg)){
+	x-=10;
+}else if(x<xx){
+	x+=10;
 }
+else{
+	x = xx;
+}
+
+
 
 if(life<= 0){
 	cooldown--;
-	if(instance_exists(hud)){
-		instance_destroy(hud);
-	}
+	sprite_index = spr_explosion;
+	audio_play_sound(snd_explosion, 1, false);
 }
 
 
