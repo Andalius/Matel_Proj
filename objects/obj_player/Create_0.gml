@@ -20,3 +20,4 @@ f2 = true;
 f3 = true;
 f4 = true;
 f5 = true;
+atk = 0;

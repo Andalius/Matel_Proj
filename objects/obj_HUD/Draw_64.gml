@@ -1,8 +1,8 @@
 
 var _actual_life = obj_playerComb.hp/obj_playerComb.max_hp*100;
-draw_healthbar(180, 220, 350, 270, _actual_life, c_grey, c_red, c_red, 0, true, true);
+draw_healthbar(207, 232, 422, 260, _actual_life, c_grey, c_red, c_red, 0, true, true);
 
-
+draw_sprite_ext(spr_life_bar, 0,200, 220, 0.5, 0.5, 0, c_white, 1);
 
 //draw buttons background
 draw_rectangle_color(0, room_height, room_width, room_height-230, c_grey, c_grey, c_grey, c_grey, false);

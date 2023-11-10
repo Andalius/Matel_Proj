@@ -1,0 +1,11 @@
+enemy = spr_enemy_megamente;
+life = 2;
+max_life = life;
+atk = 2;
+destino = Room1;
+xx = 600;
+yy = 600;
+sprite = spr_enemy_megamente;
+b_sprite = spr_enemy_megamente_b;
+sprite_index = b_sprite;
+nome = "MegaMente";
