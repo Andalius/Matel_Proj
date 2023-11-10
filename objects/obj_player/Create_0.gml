@@ -1,4 +1,4 @@
-velh = 0;
+velh = 1;
 velv = 0;
 max_velh = 4;
 max_velv = 6;

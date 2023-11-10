@@ -19,8 +19,6 @@ if (!_floor){
 	
 } else {
 	velv = 0
-	if velh != 0
-		sprite_index = spr_new;
 
 
 //jump
@@ -51,7 +49,11 @@ if(mouse_check_button_pressed(mb_left)){
 	atk = 8;
 }
 	if(atk<=0){
-	sprite_index = spr_new;
+		
+		if velh != 0
+			sprite_index = spr_player_run
+		else
+			sprite_index = spr_new;
 	
 }
 

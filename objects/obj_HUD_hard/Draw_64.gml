@@ -18,7 +18,7 @@ draw_set_halign(fa_center);
 
 //quests
 var _question = question;
-draw_text_ext_color(500, 580, "Pergunta:  " + _question,  100, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(600, 580, "Pergunta:  " + _question,  10, 2000, c_black, c_black, c_black, c_black, 1);
 
 // Embaralhe as alternativas
 

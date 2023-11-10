@@ -19,9 +19,9 @@ perguntas_easy = [
 ]
 
 respostas_corretas_easy =[
-	"x111 = -3/2 e x2 = 1",
-	"x211 = 1 e x2 = 5",
-	"x311 = 0 e x2 = 3/2",	
+	"certox1 = -3/2 e x2 = 1",
+	"certox1 = 1 e x2 = 5",
+	"certox1 = 0 e x2 = 3/2",	
 ];
 
 respostas_aleatorias_easy = [
