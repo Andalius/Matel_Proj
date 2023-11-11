@@ -71,6 +71,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_newb","path":"sprites/spr_newb/spr_newb.yy",},},
     {"id":{"name":"snd_dmg","path":"sounds/snd_dmg/snd_dmg.yy",},},
+    {"id":{"name":"obj_HUD_boss","path":"objects/obj_HUD_boss/obj_HUD_boss.yy",},},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy_girl","path":"sprites/spr_enemy_girl/spr_enemy_girl.yy",},},

@@ -47,6 +47,7 @@
     {"name":"TileSet4","order":3,"path":"tilesets/TileSet4/TileSet4.yy",},
     {"name":"spr_newb","order":3,"path":"sprites/spr_newb/spr_newb.yy",},
     {"name":"snd_dmg","order":2,"path":"sounds/snd_dmg/snd_dmg.yy",},
+    {"name":"obj_HUD_boss","order":3,"path":"objects/obj_HUD_boss/obj_HUD_boss.yy",},
     {"name":"snd_jump","order":1,"path":"sounds/snd_jump/snd_jump.yy",},
     {"name":"spr_enemy1","order":9,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
     {"name":"spr_enemy_girl","order":3,"path":"sprites/spr_enemy_girl/spr_enemy_girl.yy",},
