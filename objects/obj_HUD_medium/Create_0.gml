@@ -12,43 +12,21 @@ _choices = array_create(3, "");
 final = array_create(3, "");
 
 
-perguntas_easy = [
-	"2x^2 - 5x + 3 = 0",
-	"x^2 + 4x + 4 = 0",
-	"5x^2 - 12x + 7 = 0",
-	"3x^2 + 6x + 3 = 0",
-	"2x^2 - 8x + 8 = 0"
-]
-
-respostas_corretas_easy =[
-	"x111 = -3/2 e x2 = 1",
-	"x111 = 1 e x2 = 5",
-	"x111 = 0 e x2 = 3/2",	
-];
-
-respostas_aleatorias_easy = [
-	"x1 = 3 e x2 = 2",
-	"x1 = 1 e x2 = 4/3",
-	"x1 = 2 e x2 5/7",
-	"x1 = -5 e x2 = -1",
-	"x1 = 2 e x2 = 1",
-	"x1 = 3 e x2 = 1"
-]
 
 perguntas_medium = [
-	"2x^2 - 5x + 3 = 0",
-	"x^2 + 4x + 4 = 0",
-	"5x^2 - 12x + 7 = 0",
-	"3x^2 + 6x + 3 = 0",
-	"2x^2 - 8x + 8 = 0"
+	"r1 2x^2 - 5x + 3 = 0",
+	"r2 x^2 + 4x + 4 = 0",
+	"r3 5x^2 - 12x + 7 = 0",
+	"r4 3x^2 + 6x + 3 = 0",
+	"r5 2x^2 - 8x + 8 = 0"
 ]
 
 respostas_corretas_medium =[
-	"certo x1 = 3/2 e x2 = 1",
-	"certo x1 = -2 e x2 = -2",
-	"certo x1 = 1 e x2 = 7/5",
-	"certo x1 = -1 e x2 = -1",
-	"certo x1 = 2 e x2 = 2"	
+	"1certo x1 = 3/2 e x2 = 1",
+	"2certo x1 = -2 e x2 = -2",
+	"3certo x1 = 1 e x2 = 7/5",
+	"4certo x1 = -1 e x2 = -1",
+	"5certo x1 = 2 e x2 = 2"	
 ];
 
 respostas_aleatorias_medium = [

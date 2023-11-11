@@ -86,6 +86,7 @@
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"spr_enemy_megamente_b","path":"sprites/spr_enemy_megamente_b/spr_enemy_megamente_b.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
+    {"id":{"name":"spr_bossb","path":"sprites/spr_bossb/spr_bossb.yy",},},
     {"id":{"name":"rm_combat_girl","path":"rooms/rm_combat_girl/rm_combat_girl.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},

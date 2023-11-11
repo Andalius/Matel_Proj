@@ -6,23 +6,28 @@ if (hp <=0){
 
 if(instance_exists(obj_playerComb)){
 	if ( keyboard_check_pressed(vk_enter)){
-		if(hud.final[hud.posicao]==hud.gabarito){
-			//combat system
-			var _ini_x = obj_playerComb.x;
-			var _ini_y = obj_playerComb.y;
+		
+		if(cool <= 0&&instance_exists(hud)){
+			if(hud.final[hud.posicao]==hud.gabarito){
+				//combat system
+				var _ini_x = obj_playerComb.x;
+				var _ini_y = obj_playerComb.y;
 
-			var _temp = 4;
-			var _dist =  abs(_ini_x - obj_enemyComb1.x);
+				var _temp = 4;
+				var _dist =  abs(_ini_x - obj_enemyComb1.x);
 			
-			move_towards_point(576, y, 10);
-			if(obj_enemyComb1.life <= 0){
-			 	tempo = 184;
-				obj_enemyComb1.morto = true
+				move_towards_point(576, y, 10);
+				if(obj_enemyComb1.life <= 0){
+				 	tempo = 184;
+					obj_enemyComb1.morto = true
+				}
+		
 			}
 		
-		}
-		else{
-			instance_create_layer(x, y, "Instances_1", obj_dmg);
+			else{
+				instance_create_layer(x, y, "Instances_1", obj_dmg);
+			}
+			cool = 50;
 		}
 	}
 }
@@ -53,6 +58,7 @@ if(bcool >= 0 && x < 400){
 
 bcool --;
 tempo -= 1;
+cool --;
 
 
 	

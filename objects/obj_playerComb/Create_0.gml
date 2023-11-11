@@ -10,3 +10,4 @@ tempo = 0;
 
 bcool = -1;
 _fim = obj_enemyComb1.x;
+cool = 0;
