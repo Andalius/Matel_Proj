@@ -1,5 +1,5 @@
 enemy = spr_enemy_megamente;
-life = 2;
+life = 3;
 max_life = life;
 atk = 2;
 destino = Room1;

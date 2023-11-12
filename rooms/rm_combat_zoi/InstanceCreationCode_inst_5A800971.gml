@@ -1,4 +1,4 @@
-life = 4;
+life = 3;
 max_life = life;
 destino = Room1;
 sprite = spr_zoidin;

@@ -1,4 +1,4 @@
-life = 6;
+life = 2;
 max_life = life;
 atk = 2;
 destino = Room1;
