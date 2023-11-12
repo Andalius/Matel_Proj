@@ -1,7 +1,7 @@
 //life <= 10 you died
 if (hp <=0){
-	show_message("VOCÊ MORREU")
-	game_restart();	
+	instance_destroy(hud);
+	instance_create_layer(x, y, "Instances_1", obj_HUD_death);
 }
 
 if(instance_exists(obj_playerComb)){

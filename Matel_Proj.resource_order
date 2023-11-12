@@ -63,6 +63,7 @@
     {"name":"spr_enemy_megamente_b","order":6,"path":"sprites/spr_enemy_megamente_b/spr_enemy_megamente_b.yy",},
     {"name":"background","order":7,"path":"sprites/background/background.yy",},
     {"name":"spr_bossb","order":11,"path":"sprites/spr_bossb/spr_bossb.yy",},
+    {"name":"obj_HUD_death","order":4,"path":"objects/obj_HUD_death/obj_HUD_death.yy",},
     {"name":"rm_combat_girl","order":4,"path":"rooms/rm_combat_girl/rm_combat_girl.yy",},
     {"name":"obj_boss","order":4,"path":"objects/obj_boss/obj_boss.yy",},
     {"name":"obj_enemyComb1","order":1,"path":"objects/obj_enemyComb1/obj_enemyComb1.yy",},

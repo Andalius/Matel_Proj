@@ -1,4 +1,4 @@
-max_hp = 10;
+max_hp = 4;
 hp = max_hp;
 md = 0;
 hud = 0;
