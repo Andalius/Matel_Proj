@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_combat_boss",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/Room1/RoomCreationCode.gml",
   "inheritCode": true,
   "inheritCreationOrder": true,
   "inheritLayers": true,

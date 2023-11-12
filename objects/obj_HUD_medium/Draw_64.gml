@@ -38,4 +38,4 @@ if (posicao > 2) posicao = 0;
 
 
 //draw choice marker
-draw_rectangle_color(100 + (posicao *300), room_height-80, 300 + (posicao * 300), room_height-130, c_black, c_black, c_black, c_black, true);
+draw_rectangle_color(100 + (posicao*400), room_height-80, 300 + (posicao * 400), room_height-130, c_black, c_black, c_black, c_black, true);
