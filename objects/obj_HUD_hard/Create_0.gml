@@ -1,5 +1,5 @@
 posicao = 0;
-
+cool = 0;
 
 // Evento Create do objPerguntasRespostas
 
@@ -47,4 +47,5 @@ gabarito = "";
 	}
 
 final = array_shuffle(_choices);
+draw_set_font(Font1);
 	

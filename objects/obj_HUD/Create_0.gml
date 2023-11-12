@@ -1,6 +1,7 @@
 posicao = 0;
 cool = 0;
 
+draw_set_font(Font1);
 // Evento Create do objPerguntasRespostas
 
 

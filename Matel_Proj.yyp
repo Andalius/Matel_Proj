@@ -54,6 +54,7 @@
     {"id":{"name":"obj_zoiudin","path":"objects/obj_zoiudin/obj_zoiudin.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"spr_bossbar","path":"sprites/spr_bossbar/spr_bossbar.yy",},},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"rm_combat_boss","path":"rooms/rm_combat_boss/rm_combat_boss.yy",},},
     {"id":{"name":"obj_enemy_girl","path":"objects/obj_enemy_girl/obj_enemy_girl.yy",},},

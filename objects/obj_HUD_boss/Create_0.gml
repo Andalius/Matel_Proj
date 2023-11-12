@@ -1,5 +1,5 @@
 posicao = 0;
-
+cool = 0;
 
 // Evento Create do objPerguntasRespostas
 
@@ -12,28 +12,44 @@ _choices = array_create(3, "");
 final = array_create(3, "");
 
 perguntas_medium = [
-	"1A soma das solucoes da equação x^2 + 4 x - 5=0 e igual a:",
-	"2Qual deve ser o valor k na equacao do 2 grau x2+8x+k−1=0 que faz com que essa equacao possua uma unica soluçao real?",
-	"3As raizes da equacao x^d2+ bx + c = 0 sao os numeros 1 e 7. Entao, podemos afirmar que o valor de b + c, e:",
-	"4Analisando os coeficientes, qual o valor de \( k \) que faz com que a equacao \( (k^2 - 4) x^3 + ( k - 2 )x^2 + 7x - 8 = 0 \) se torne uma equação do 2º grau?",
-	"5(Fatec) Se a equacao x^2 - 10x + k = 0 tem uma raiz de multiplicidade 2, então o valor de k,e"
+	"O que é uma equação de segundo grau?",
+	"Como encontrar as raízes de uma equação de segundo grau?",
+	"O que é o discriminante de uma equação de segundo grau?",
+	"O que significa uma equação de segundo grau ter duas raízes reais diferentes?",
+	"O que significa uma equação de segundo grau ter uma raiz real dupla?",
+	"O que significa uma equação de segundo grau não ter raízes reais?",
+	"O que é uma equação de segundo grau incompleta?",
+	"O que é uma equação de segundo grau completa?",
+	"O que é a fórmula de Bhaskara?",
+	"O que é uma equação de segundo grau de coeficientes imaginários?"
+	
 ]
 
 respostas_corretas_medium =[
-	"1certo -4",
-	"2certo 17",
-	"3certo -1",	
-	"4certo -2",
-	"5certo 25"
+	"Uma equação de segundo grau é uma equação polinomial de grau 2, da forma ax² + bx + c = 0, onde a, b e c são constantes e a ≠ 0.",
+	"As raízes de uma equação de segundo grau podem ser encontradas usando a fórmula quadrática: x = (-b ± √(b² - 4ac)) / 2a.",
+	"O discriminante de uma equação de segundo grau é a expressão b² - 4ac na fórmula quadrática. Ele determina o número e a natureza das raízes da equação.",	
+	"Se uma equação de segundo grau tem duas raízes reais diferentes, significa que a equação tem duas soluções diferentes que são números reais.",
+	"Se uma equação de segundo grau tem uma raiz real dupla, significa que a equação tem apenas uma solução que é um número real.",
+	"Se uma equação de segundo grau não tem raízes reais, significa que a equação não tem soluções reais, mas sim soluções complexas.",
+	"Uma equação de segundo grau é incompleta quando um dos coeficientes b ou c é igual a zero.",
+	"Uma equação de segundo grau é completa quando todos os coeficientes a, b e c são diferentes de zero.",	
+	"A fórmula de Bhaskara é usada para encontrar as raízes de uma equação de segundo grau completa.",
+	"Uma equação de segundo grau de coeficientes imaginários é uma equação que não tem soluções reais, mas tem soluções complexas."
 ];
 
 respostas_aleatorias_medium = [
-	"3",
-	"5",
-	"1",
-	"-17",
-	"9",
-	"22"
+	"A equação de segundo grau é uma equação polinomial de grau 3, da forma ax³ + bx² + cx + d = 0, onde a ≠ 0.",
+	"As raízes de uma equação de segundo grau são encontradas usando a fórmula cúbica: x = (-b ± √(b² - 4ac)) / 3a.",
+	"O discriminante de uma equação de segundo grau é a expressão b² - 4ac na fórmula cúbica.",
+	"Se uma equação de segundo grau tem duas raízes reais diferentes, a equação tem três soluções reais.",
+	"Se uma equação de segundo grau tem uma raiz real dupla, a equação tem duas soluções reais.",
+	"Se uma equação de segundo grau não tem raízes reais, a equação tem soluções reais, mas não complexas.",
+	"Uma equação de segundo grau é incompleta quando a, b e c são zero.",
+	"Uma equação de segundo grau é completa quando pelo menos um dos coeficientes é zero.",
+	"A fórmula de Bhaskara é usada para encontrar as raízes de uma equação de primeiro grau completa.",
+	"Uma equação de segundo grau de coeficientes imaginários tem soluções reais, mas não complexas."
+
 ]
 gabarito = "";
 	current_question = random(5);
@@ -47,4 +63,4 @@ gabarito = "";
 	}
 
 final = array_shuffle(_choices);
-	
+draw_set_font(Font1);	

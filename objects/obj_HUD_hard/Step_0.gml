@@ -1,4 +1,5 @@
-if(keyboard_check_pressed(vk_enter)){
+if(keyboard_check_pressed(vk_enter)&&cool<=0){
+	cool = 50;
 	_choices = array_create(3, "");
 	current_question = random(3);
 	question = perguntas_medium[current_question];
@@ -14,3 +15,4 @@ if(keyboard_check_pressed(vk_enter)){
 if(obj_enemyComb1.life <= 0){
 	instance_destroy();	
 }
+cool--;

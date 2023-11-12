@@ -25,9 +25,9 @@ draw_text_ext_color(600, 580, "Pergunta:  " + _question,  10, 2000, c_black, c_b
 
 // Desenhe as alternativas na tela
 
-draw_text_ext_color(200, 650, string(final[0]), 100, 400, c_black, c_black, c_black, c_black, 1);
-draw_text_ext_color(500, 650, string(final[1]), 100, 400, c_black, c_black, c_black, c_black, 1);
-draw_text_ext_color(800, 650, string(final[2]), 100, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(200, 650, string(final[0]), 10, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(600, 650, string(final[1]), 10, 400, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(1000, 650, string(final[2]), 10, 400, c_black, c_black, c_black, c_black, 1);
 
 
 if (keyboard_check_pressed(vk_left)) posicao--;
