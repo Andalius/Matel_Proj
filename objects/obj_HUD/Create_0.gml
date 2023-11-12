@@ -1,6 +1,7 @@
 posicao = 0;
+cool = 0;
 
-
+draw_set_font(Font1);
 // Evento Create do objPerguntasRespostas
 
 
@@ -13,15 +14,15 @@ final = array_create(3, "");
 
 
 perguntas_easy = [
-	"2x^2+x-3 = 01",
-	"-3x^2+18x-15 = 02",
-	"2x^2+3x = 03",
+	"r12x^2+x-3 = 01",
+	"r2-3x^2+18x-15 = 02",
+	"r32x^2+3x = 03",
 ]
 
 respostas_corretas_easy =[
-	"certox1 = -3/2 e x2 = 1",
-	"certox1 = 1 e x2 = 5",
-	"certox1 = 0 e x2 = 3/2",	
+	"1certox1 = -3/2 e x2 = 1",
+	"2certox1 = 1 e x2 = 5",
+	"3certox1 = 0 e x2 = 3/2",	
 ];
 
 respostas_aleatorias_easy = [
@@ -45,6 +46,6 @@ respostas_aleatorias_easy = [
 		}
 	}
 
-
+cool --;
 final = _choices;
 	

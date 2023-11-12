@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_boss",
+  "name": "spr_bossb",
   "bbox_bottom": 972,
   "bbox_left": 0,
   "bbox_right": 652,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e89b70ac-c4c0-4216-981b-f65674036414",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"578ef47f-9ce8-43b3-b373-db58a9566e01",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 973,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"95a2c5b4-55aa-49a1-bc59-5f043dbd9f9a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd7b8063-be59-41d0-b0bf-14f0fe24df49","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 7,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_boss",
+    "name": "spr_bossb",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e89b70ac-c4c0-4216-981b-f65674036414","path":"sprites/spr_boss/spr_boss.yy",},},},"Disabled":false,"id":"5dd86297-52b9-46e6-acfa-58217d97d8b5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"578ef47f-9ce8-43b3-b373-db58a9566e01","path":"sprites/spr_bossb/spr_bossb.yy",},},},"Disabled":false,"id":"117e505c-ca3f-431b-a1cc-c4627deb35cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

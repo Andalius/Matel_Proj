@@ -15,4 +15,5 @@ if(keyboard_check_pressed(vk_enter)&&cool<=0){
 if(obj_enemyComb1.life <= 0){
 	instance_destroy();	
 }
-cool--;
+
+cool --;

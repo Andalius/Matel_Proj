@@ -1,4 +1,5 @@
-if(keyboard_check_pressed(vk_enter)){
+if(keyboard_check_pressed(vk_enter)&&cool <= 0){
+	cool = 50;
 	_choices = array_create(3, "");
 	current_question = random(3);
 	question = perguntas_easy[current_question];
