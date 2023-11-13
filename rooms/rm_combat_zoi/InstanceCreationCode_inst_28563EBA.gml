@@ -1,8 +1,12 @@
+enemy = spr_enemy_megamente;
 life = 3;
 max_life = life;
+atk = 2;
 destino = Room1;
+xx = 600;
+yy = 600;
 sprite = spr_zoidin;
 b_sprite = spr_zoidinB;
 sprite_index = sprite;
+nome = "Zoio";
 hud = obj_HUD_medium;
-nome = "Zoin";

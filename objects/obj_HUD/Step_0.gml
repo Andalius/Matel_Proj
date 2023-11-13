@@ -16,3 +16,4 @@ if(obj_enemyComb1.life <= 0){
 	instance_destroy();	
 }
 
+cool --;
