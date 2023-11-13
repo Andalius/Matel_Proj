@@ -20,9 +20,9 @@ perguntas_easy = [
 ]
 
 respostas_corretas_easy =[
-	"11x1 = -3/2 e x2 = 1",
-	"11x1 = 1 e x2 = 5",
-	"11x1 = 0 e x2 = 3/2",
+	"x1 = -3/2 e x2 = 1",
+	"x1 = 1 e x2 = 5",
+	"x1 = 0 e x2 = 3/2",
 ];
 
 respostas_aleatorias_easy = [
