@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sensor",
-    "path": "sprites/spr_sensor/spr_sensor.yy",
+    "name": "Sprite35vcbc",
+    "path": "sprites/Sprite35vcbc/Sprite35vcbc.yy",
   },
   "spriteMaskId": null,
   "visible": true,
